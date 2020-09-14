@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+#app {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  min-width: 1000px;
+  min-height: 660px;
+}
+#tool {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  background-color: #fff;
+}
+.color {
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.color.black {
+  background-color: #000;
+}
+.color.green {
+  background-color: green;
+}
+.color.red {
+  background-color: red;
+}
+.size {
+  cursor: pointer;
+  height: 15px;
+  background-color: #000;
+  margin-right: 10px;
+}
+.size.small {
+  width: 3px;
+}
+.size.normal {
+  width: 8px;
+}
+.size.big {
+  width: 10px;
+}
+.reset,
+.save {
+  width: 15px;
+  height: 15px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.save {
+  margin-right: 0;
+}
